@@ -1,0 +1,436 @@
+/*Start of Header & Navbaar*/
+
+
+
+#header-nav {
+  background-color: #61122f;
+  border-radius: 0;
+  border: 0;
+    
+}
+
+
+.navbar-brand a:hover , .navbar-brand a:focus {
+    text-decoration: none;
+       
+}
+
+.navbar-brand p { 
+  color: #000;
+  text-transform: uppercase;
+  font-size: .7em;
+  
+}
+
+.navbar-brand p span {
+    
+    vertical-align: middle;
+}
+
+#nav-list {
+  margin-top: 0%;
+}
+#nav-list a {
+  color: ghostwhite;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+
+}
+
+#phone {
+  margin-top: 5px;
+    
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+  
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: center;
+  padding-right: 15px;
+}
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+
+h2{color: antiquewhite;}
+/* End of Header & Navbaar*/
+
+/* Start of the Body*/
+
+h1 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+p {
+ 
+  border: 1px solid black;
+  float:left;    
+ 
+}
+
+
+
+#p1 p {
+    padding: 5px;
+  float: left;
+  background-color:transparent;
+  position: relative;
+
+  margin: 1px;
+ 
+
+ 
+}
+
+#p2 p{
+    float: left;
+    
+    position: relative;
+    background-color: transparent;
+    
+    margin: 1px;
+    padding: 5px;
+}
+
+#p3 p{
+    float: left;
+   
+    position: relative;
+    background-color:transparent;
+    margin: 1px;
+    padding: 20px;
+}
+
+
+
+.title1 {
+    width: 6%;
+    min-width: 7%;  
+    max-width: 24%;
+    height: 15px;
+    border: 1px solid black;
+    color: black;
+    position: absolute;
+}
+
+.title2{
+    width: 6%;
+    min-width: 7%;  
+    max-width: 24%;
+    left:55%;
+    height: 15px;
+    border: 1px solid black;
+    color: black;
+    position: absolute;
+}
+
+
+.title3{
+    width: 6%;
+    min-width: 7%;  
+    max-width: 24%;
+    left:84%;
+    height: 15px;
+    border: 1px solid black;
+    color: black;
+    position: absolute;    
+}
+ 
+
+
+/******** Large Device **********/ 
+    
+    @media (min-width: 992px)  {
+    #p1 {
+   
+background-color: salmon;
+
+    
+    }
+
+    .title1 {
+
+   width: 32%;
+    min-width: 7%;  
+    max-width: 24%;
+    left:70%;
+    height: 15px;
+    border: 1px solid black;
+    color: black;
+    position: absolute;
+    text-align: center;
+    background-color: darkorange;
+    overflow:visible;
+    
+}
+
+     
+  #p2 {
+    
+   background-color: salmon;
+  }
+    
+  .title2{
+    width: 150px;
+    min-width: 70px;  
+    max-width: 200pz;
+    left:70%;
+    height: 15px;
+    border: 1px solid black;
+    color: black;
+    position: absolute;
+       text-align: center;
+       margin-left: 10px;
+       background-color: orangered;
+
+}
+    
+    #p3{
+    
+        background-color: salmon;
+    }
+    
+   .title3{
+    width: 150px;
+    min-width: 7%;  
+    max-width: 24%;
+    left:72%;
+    height: 15px;
+    border: 1px solid black;
+    color: black;
+    position: absolute;
+    text-align: center;
+    margin-left: 2px;
+    background-color: peru;
+
+}
+    
+   
+    
+  body {
+    background-color: antiquewhite;
+  }
+
+
+}
+
+         /************Medium Devices *************/
+@media (min-width: 768px) and (max-width: 991px) {
+    #p1 {
+
+  background-color: salmon;
+
+  }
+    
+    .title1{
+
+     width: 20%;
+    min-width: 10%;  
+    max-width: 30%;
+    left: 78%;
+    height: 15px;
+    border: 1px solid black;
+    color: black;
+    position: absolute;
+text-align: center;
+         background-color: darkorange;
+
+
+}
+
+    
+  #p2 {
+
+background-color: salmon;
+   
+  }
+    
+.title2{
+    width: 20%;
+    min-width: 10%;  
+    max-width: 30%;
+    left:75%;
+    margin-left: 8px;
+    height: 15px;
+    border: 1px solid black;
+    color: black;
+    position: absolute;
+    text-align: center;
+    background-color: orangered;
+
+}
+    #p3{
+
+background-color: salmon;
+    padding-right: 100px;
+    }
+    
+    .title3{
+        width: 20%;
+    min-width: 10%;  
+    max-width: 30%;    
+    left:73%;
+    margin-left: 3px;
+    height: 15px;
+    border: 1px solid black;
+    color: black;
+    position: absolute;
+    text-align: center;
+        background-color: peru;
+
+}
+    
+    
+   
+    
+  body {
+    background-color:antiquewhite;
+  }
+}
+
+
+
+
+
+
+/********** mini devices only **********/
+
+@media (min-width: 150px) and (max-width: 767px) {
+ 
+    
+    
+    
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number */
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver */
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+    
+    /** End of Header*/
+    
+    
+    
+    
+    #p1 {
+
+background-color: cornflowerblue;
+      
+  }
+      .title1{
+
+   width: 15%;
+    min-width: 9%;  
+    max-width: 11%;
+    left:85%;
+    height: 15px;
+    border: 1px solid black;
+    color: black;
+    position: absolute;
+text-align: center;
+background-color: darkorange;
+
+}
+
+    #p2 {
+background-color: cornflowerblue;
+   
+  }
+     
+.title2{
+    width: 20%;
+    min-width: 10%;  
+    max-width: 30%;
+    top:70px;
+    left:75%;
+    margin-left: 8px;
+    height: 15px;
+    border: 1px solid black;
+    color: black;
+    position: absolute;
+    text-align: center;
+    background-color: orangered;
+
+}
+   
+    #p3{
+        background-color: cornflowerblue;
+
+    }
+    
+    .title3{
+    
+    width: 15%;
+    min-width: 9%;  
+    max-width: 20%;
+    top:145px;
+    left:75%;
+    height: 15px;
+    border: 1px solid black;
+    color: black;
+    position: absolute;
+    text-align: center;
+    background-color: peru;
+}
+
+
+    
+  body {
+    background-color: antiquewhite;
+      
+  }
+}
+
+
+
+
+
+
+
+
